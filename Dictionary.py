@@ -49,3 +49,12 @@ print("\n")
 my_dictCopy = my_dict.copy()
 print(my_dictCopy)
 
+# How to check whether the value exists
+# In the dictionary and do not get error?
+
+# dict.get(s[i], 0)
+# Basically it tells interpreter to check
+# whether the value exists and extract it
+# if it doesn't exist, use zero as a default
+# value
+
